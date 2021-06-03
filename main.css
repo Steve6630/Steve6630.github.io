@@ -3,8 +3,7 @@ body{
     padding: 0;
 }
 .Mobile{
-    width: 80%;
-    height: 100%;
+    width: 100%;
 }
 .Desktop{
     display: none;
@@ -137,8 +136,9 @@ a {
     position: absolute;
     font-family: 'Rasa' , serif;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 35%;
     margin-left: 25%;
+    font-size: 16px;
 }
 .modal p {
     position: absolute;
@@ -146,7 +146,8 @@ a {
     text-align: center;
     width: 100%;
     height: 100%;
-    margin-top: 35%;
+    margin-top: 45%;
+    font-size: 14px;
 }
 .modal-close {
     position: absolute;
@@ -161,7 +162,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 310px;
+    margin-left: 280px;
     margin-top: 5px;
 }
 .social-media2 img{
@@ -169,7 +170,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 350px;
+    margin-left: 320px;
     margin-top: 5px;
 }
 
@@ -202,15 +203,15 @@ a {
 }
 .projects h3 {
     font-family: 'Rasa' , serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 25%;
 }
 .project-rect {
-    width: 330px;
+    width: 220px;
     height: 8px;
     background: #0B62ED;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-top: -5%;
 }
 .projects ul li {
@@ -220,20 +221,21 @@ a {
     line-height: 300%;
     font-weight: 500;
     list-style: square;
+    margin-left: 10%;
 }
 
 .languages h3 {
     font-family: 'Rasa' , serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 24%;
     margin-top: 20%;
 }
 .languages-rect {
-    width: 330px;
+    width: 220px;
     height: 8px;
     background: #0B62ED;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: -5%;
 }
 
@@ -255,8 +257,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -48%;
-    margin-left: 28%;
+    margin-top: -58%;
+    margin-left: 24%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language1 img {
@@ -270,7 +272,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 28%;
+    margin-left: 24%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language2 img {
@@ -283,8 +285,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -23%;
-    margin-left: 15%;
+    margin-top: -28%;
+    margin-left: 8%;
     box-shadow: 5px 5px 10px #888888;
 }
 .leftmost-language img {
@@ -297,8 +299,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -23%;
-    margin-left: 52%;
+    margin-top: -29%;
+    margin-left: 56%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language1 img {
@@ -312,7 +314,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 52%;
+    margin-left: 56%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language2 img {
@@ -325,8 +327,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -23%;
-    margin-left: 65%;
+    margin-top: -28%;
+    margin-left: 72%;
     box-shadow: 5px 5px 10px #888888;
 }
 .rightmost-language img {
@@ -337,14 +339,14 @@ a {
 }
 .details h3 {
     font-family: 'Rasa' , serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 18%;
     margin-top: 10%;
     margin-top: 50%;
 }
 .detail-rect {
-    width: 330px;
+    width: 300px;
     height: 8px;
     background: #0B62ED;
     margin-left: 10%;
@@ -356,9 +358,10 @@ a {
     line-height: 200%;
     font-weight: 400;
     letter-spacing: 10%;
-    padding: 15px;
+    justify-content: center;
     text-align: center;
     width: 75%;
+    margin-left: 10%;
 }
 footer p{
     font-family: 'Rasa' , serif;
@@ -369,6 +372,6 @@ footer p{
     margin-left: -10%;
 }
 .Foot-UI{
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
