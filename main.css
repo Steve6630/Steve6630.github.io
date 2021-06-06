@@ -2,9 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.Mobile{
-    width: 100%;
-}
 .Desktop{
     display: none;
 }
@@ -162,7 +159,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 280px;
+    margin-left: 200px;
     margin-top: 5px;
 }
 .social-media2 img{
@@ -170,27 +167,27 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 320px;
+    margin-left: 240px;
     margin-top: 5px;
 }
 
 .top-text {
     position: absolute;
     font-family: 'Rasa', serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     color: #fff;
-    margin-top: 370px;
-    margin-left: 50px;
+    margin-top: 280px;
+    margin-left: 18px;
 }
 .center-text {
     position: absolute;
     font-family: 'Rasa', serif;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-top: 390px;
-    margin-left: 10px;
+    margin-top: 300px;
+    margin-left: 16px;
 }
 .bottom-text {
     position: absolute;
@@ -198,8 +195,8 @@ a {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    margin-top: 425px;
-    margin-left: 70px;
+    margin-top: 330px;
+    margin-left: 35px;
 }
 .projects h3 {
     font-family: 'Rasa' , serif;
@@ -208,7 +205,7 @@ a {
     margin-left: 25%;
 }
 .project-rect {
-    width: 220px;
+    width: 180px;
     height: 8px;
     background: #0B62ED;
     margin-left: 17%;
@@ -228,14 +225,14 @@ a {
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 24%;
+    margin-left: 22%;
     margin-top: 20%;
 }
 .languages-rect {
-    width: 220px;
+    width: 200px;
     height: 8px;
     background: #0B62ED;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-top: -5%;
 }
 
@@ -257,8 +254,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -58%;
-    margin-left: 24%;
+    margin-top: -68%;
+    margin-left: 20%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language1 img {
@@ -272,7 +269,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 24%;
+    margin-left: 20%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language2 img {
@@ -285,8 +282,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -28%;
-    margin-left: 8%;
+    margin-top: -34%;
+    margin-left: 1%;
     box-shadow: 5px 5px 10px #888888;
 }
 .leftmost-language img {
@@ -299,8 +296,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -29%;
-    margin-left: 56%;
+    margin-top: -36%;
+    margin-left: 60%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language1 img {
@@ -314,7 +311,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 56%;
+    margin-left: 60%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language2 img {
@@ -327,8 +324,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -28%;
-    margin-left: 72%;
+    margin-top: -34%;
+    margin-left: 80%;
     box-shadow: 5px 5px 10px #888888;
 }
 .rightmost-language img {
@@ -341,15 +338,15 @@ a {
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 18%;
+    margin-left: 40%;
     margin-top: 10%;
     margin-top: 50%;
 }
 .detail-rect {
-    width: 300px;
+    width: 150px;
     height: 8px;
     background: #0B62ED;
-    margin-left: 10%;
+    margin-left: 22%;
     margin-top: -5%;
 }
 .details p {
