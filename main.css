@@ -124,7 +124,7 @@ a {
     color: white;
     font-size: 16px;
     border: none;
-    margin-left: 35%;
+    margin-left: 38%;
     margin-bottom: 10%;
     font-family: 'Rasa' , serif;
     cursor: pointer;
@@ -174,19 +174,19 @@ a {
 .top-text {
     position: absolute;
     font-family: 'Rasa', serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-top: 280px;
+    margin-top: 370px;
     margin-left: 18px;
 }
 .center-text {
     position: absolute;
     font-family: 'Rasa', serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: #fff;
-    margin-top: 300px;
+    margin-top: 390px;
     margin-left: 16px;
 }
 .bottom-text {
@@ -195,8 +195,8 @@ a {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    margin-top: 330px;
-    margin-left: 35px;
+    margin-top: 420px;
+    margin-left: 50px;
 }
 .projects h3 {
     font-family: 'Rasa' , serif;
@@ -205,7 +205,7 @@ a {
     margin-left: 25%;
 }
 .project-rect {
-    width: 180px;
+    width: 200px;
     height: 8px;
     background: #0B62ED;
     margin-left: 17%;
@@ -254,7 +254,7 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -68%;
+    margin-top: -58%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px #888888;
 }
@@ -282,7 +282,7 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -34%;
+    margin-top: -28%;
     margin-left: 1%;
     box-shadow: 5px 5px 10px #888888;
 }
@@ -296,7 +296,7 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -36%;
+    margin-top: -30%;
     margin-left: 60%;
     box-shadow: 5px 5px 10px #888888;
 }
@@ -324,7 +324,7 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -34%;
+    margin-top: -28%;
     margin-left: 80%;
     box-shadow: 5px 5px 10px #888888;
 }
@@ -339,11 +339,11 @@ a {
     font-size: 18px;
     font-weight: bold;
     margin-left: 40%;
-    margin-top: 10%;
     margin-top: 50%;
+    padding-top: 10px;
 }
 .detail-rect {
-    width: 150px;
+    width: 200px;
     height: 8px;
     background: #0B62ED;
     margin-left: 22%;
@@ -366,7 +366,6 @@ footer p{
     text-align: center;
     margin-top: -80px;
     color: white;
-    margin-left: -10%;
 }
 .Foot-UI{
     width: 100%;
