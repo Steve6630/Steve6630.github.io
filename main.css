@@ -87,17 +87,18 @@ a {
 
 .modal-bg {
     position: fixed;
-    width: 70%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
     top: 0;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 8%;
-    margin-top: 25%;
+    margin-top: 40%;
+    margin-left: 10%;
     visibility: hidden;
     opacity: 0;
+    transition: all 0.3s ease-in-out;
 }
 .bg-active {
     visibility: visible;
@@ -124,6 +125,7 @@ a {
     color: white;
     font-size: 16px;
     border: none;
+    margin-top: 10%;
     margin-left: 38%;
     margin-bottom: 10%;
     font-family: 'Rasa' , serif;
@@ -133,8 +135,8 @@ a {
     position: absolute;
     font-family: 'Rasa' , serif;
     text-align: center;
-    margin-top: 35%;
-    margin-left: 25%;
+    margin-top: 40%;
+    margin-left: 12%;
     font-size: 16px;
 }
 .modal p {
@@ -143,7 +145,7 @@ a {
     text-align: center;
     width: 100%;
     height: 100%;
-    margin-top: 45%;
+    margin-top: 65%;
     font-size: 14px;
 }
 .modal-close {
@@ -159,7 +161,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 200px;
+    margin-left: 260px;
     margin-top: 5px;
 }
 .social-media2 img{
@@ -167,7 +169,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 240px;
+    margin-left: 300px;
     margin-top: 5px;
 }
 
@@ -183,7 +185,7 @@ a {
 .center-text {
     position: absolute;
     font-family: 'Rasa', serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: #fff;
     margin-top: 390px;
@@ -192,20 +194,21 @@ a {
 .bottom-text {
     position: absolute;
     font-family: 'Rasa' , serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     margin-top: 420px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .projects h3 {
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 25%;
+    align-items: center;
+    text-align: center;
 }
 .project-rect {
-    width: 200px;
+    width: 230px;
     height: 8px;
     background: #0B62ED;
     margin-left: 17%;
@@ -225,11 +228,12 @@ a {
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 22%;
+    align-items: center;
+    text-align: center;
     margin-top: 20%;
 }
 .languages-rect {
-    width: 200px;
+    width: 230px;
     height: 8px;
     background: #0B62ED;
     margin-left: 18%;
@@ -241,7 +245,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 40%;
+    margin-left: 42%;
     box-shadow: 5px 5px 10px #888888;
 }
 .center-language img {
@@ -255,7 +259,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: -58%;
-    margin-left: 20%;
+    margin-left: 24%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language1 img {
@@ -269,7 +273,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 24%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language2 img {
@@ -283,7 +287,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: -28%;
-    margin-left: 1%;
+    margin-left: 6%;
     box-shadow: 5px 5px 10px #888888;
 }
 .leftmost-language img {
@@ -296,8 +300,8 @@ a {
     width: 50px;
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
-    margin-top: -30%;
-    margin-left: 60%;
+    margin-top: -28%;
+    margin-left: 58%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language1 img {
@@ -311,7 +315,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 60%;
+    margin-left: 58%;
     box-shadow: 5px 5px 10px #888888;
 }
 .right-language2 img {
@@ -325,7 +329,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: -28%;
-    margin-left: 80%;
+    margin-left: 76%;
     box-shadow: 5px 5px 10px #888888;
 }
 .rightmost-language img {
@@ -338,15 +342,16 @@ a {
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 40%;
     margin-top: 50%;
     padding-top: 10px;
+    align-items: center;
+    text-align: center;
 }
 .detail-rect {
-    width: 200px;
+    width: 230px;
     height: 8px;
     background: #0B62ED;
-    margin-left: 22%;
+    margin-left: 18%;
     margin-top: -5%;
 }
 .details p {
@@ -355,19 +360,22 @@ a {
     line-height: 200%;
     font-weight: 400;
     letter-spacing: 10%;
-    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 75%;
-    margin-left: 10%;
+    width: 85%;
+    margin-left: 7%;
 }
 footer p{
+    position: relative;
     font-family: 'Rasa' , serif;
     font-size: 12px;
     text-align: center;
-    margin-top: -80px;
     color: white;
+    top: 20px;
 }
 .Foot-UI{
     width: 100%;
-    height: 100%;
+    height: 10%;
+    background: linear-gradient(180deg, #40C5FE, #0256EA);
+    position: absolute;
 }
