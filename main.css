@@ -161,7 +161,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 260px;
+    margin-left: 280px;
     margin-top: 5px;
 }
 .social-media2 img{
@@ -169,7 +169,7 @@ a {
     width: 20px;
     height: 20px;
     display: flex;
-    margin-left: 300px;
+    margin-left: 320px;
     margin-top: 5px;
 }
 
@@ -188,7 +188,7 @@ a {
     font-size: 28px;
     font-weight: bold;
     color: #fff;
-    margin-top: 390px;
+    margin-top: 395px;
     margin-left: 16px;
 }
 .bottom-text {
@@ -197,7 +197,7 @@ a {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-top: 420px;
+    margin-top: 430px;
     margin-left: 70px;
 }
 .projects h3 {
@@ -259,7 +259,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: -58%;
-    margin-left: 24%;
+    margin-left: 26%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language1 img {
@@ -273,7 +273,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: 15%;
-    margin-left: 24%;
+    margin-left: 26%;
     box-shadow: 5px 5px 10px #888888;
 }
 .left-language2 img {
@@ -287,7 +287,7 @@ a {
     height: 50px;
     background-image: linear-gradient(to bottom right, #FFFFFF, #ADCCFC, #9DBEF2, #649BF3, #0A61EC);
     margin-top: -28%;
-    margin-left: 6%;
+    margin-left: 8%;
     box-shadow: 5px 5px 10px #888888;
 }
 .leftmost-language img {
