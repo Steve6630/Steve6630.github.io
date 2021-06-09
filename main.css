@@ -191,14 +191,48 @@ a {
     margin-top: 395px;
     margin-left: 16px;
 }
+.bottom-text::before {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 2px;
+    height: 35%;
+    background: white;
+    animation: blinkCursor 0.8s steps(3) infinite;
+}
+@keyframes blinkCursor {
+    0%,75% {
+        opacity: 1;
+    }
+    76%,100% {
+        opacity: 0;
+    }
+}
 .bottom-text {
     position: absolute;
     font-family: 'Rasa' , serif;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
-    margin-top: 430px;
+    margin-top: 420px;
     margin-left: 70px;
+    animation: typing 8s steps(19) infinite;
+    overflow: hidden;
+}
+.bottom-text h2 {
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 128.52px;
+}
+@keyframes typing {
+    0%,90%,100% {
+        width: 0px;
+    }
+    30%,60% {
+        width: 128.52px;
+    }
 }
 .projects h3 {
     font-family: 'Rasa' , serif;
