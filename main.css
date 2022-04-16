@@ -5,6 +5,7 @@ body{
 .Desktop{
     display: none;
 }
+
 .navbar-bttn {
     margin-left: 10px;
     position: relative;
@@ -68,12 +69,13 @@ body{
     left: 0px;
 }
 
-#navbar ul li {
+#navbar ul li:hover {
     list-style: none;
     font-family: 'Tenor sans', sans-serif;
-    color: #fff;
+    background: white;
+    color: #0B62ED;
     font-size: 14px;
-    padding: 15px 3px;
+
 }
 
 #navbar .navbar-bttn {
@@ -195,10 +197,10 @@ a {
 .bottom-text::before {
     content: '';
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
-    width: 2px;
-    height: 35%;
+    width: 3px;
+    height: 50%;
     background: white;
     animation: blinkCursor 0.8s steps(3) infinite;
 }
@@ -217,7 +219,7 @@ a {
     font-weight: bold;
     color: #fff;
     margin-top: 420px;
-    margin-left: 70px;
+    margin-left: 20px;
     animation: typing 8s steps(19) infinite;
     overflow: hidden;
 }
@@ -225,16 +227,18 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    width: 128.52px;
+    height: 10px;
+    width: 200px;
 }
 @keyframes typing {
     0%,90%,100% {
         width: 0px;
     }
     30%,60% {
-        width: 128.52px;
+        width: 200px;
     }
 }
+
 .projects h3 {
     font-family: 'Rasa' , serif;
     font-size: 18px;
@@ -494,10 +498,10 @@ footer p{
     .bottom-text::before {
         content: '';
         position: absolute;
-        top: 35%;
+        top: 50%;
         right: 0;
-        width: 2px;
-        height: 35%;
+        width: 3px;
+        height: 50%;
         background: white;
         animation: blinkCursor 0.8s steps(3) infinite;
     }
@@ -524,14 +528,15 @@ footer p{
         align-items: center;
         justify-content: center;
         font-size: 35px;
-        width: 250px;
+        height: 10px;
+        width: 320px;
     }
     @keyframes typing {
         0%,90%,100% {
             width: 0px;
         }
         30%,60% {
-            width: 250px;
+            width: 320px;
         }
     }
     .projects h3 {
